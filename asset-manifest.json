@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React_First_Task_Route_Academy/static/css/main.27f38f18.css",
+    "main.js": "/React_First_Task_Route_Academy/static/js/main.c5a228dc.js",
+    "static/media/fa-solid-900.ttf": "/React_First_Task_Route_Academy/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/React_First_Task_Route_Academy/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/React_First_Task_Route_Academy/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/React_First_Task_Route_Academy/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/React_First_Task_Route_Academy/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/cabin.png": "/React_First_Task_Route_Academy/static/media/cabin.4417330275f78faa31c3.png",
+    "static/media/circus3.png": "/React_First_Task_Route_Academy/static/media/circus3.494a4a914b5471b41f3e.png",
+    "static/media/game4.png": "/React_First_Task_Route_Academy/static/media/game4.a940b57aa7bab2eacc52.png",
+    "static/media/fa-regular-400.woff2": "/React_First_Task_Route_Academy/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/submarine6.png": "/React_First_Task_Route_Academy/static/media/submarine6.48c9704ca7f8ce901038.png",
+    "static/media/safe5.png": "/React_First_Task_Route_Academy/static/media/safe5.01792c0bdc342bf4bf9c.png",
+    "static/media/cake2.png": "/React_First_Task_Route_Academy/static/media/cake2.6554473016d32b343f02.png",
+    "static/media/avataaars.svg": "/React_First_Task_Route_Academy/static/media/avataaars.aa9aff02ddd0ef36a1724ecef4133df9.svg",
+    "static/media/fa-v4compatibility.ttf": "/React_First_Task_Route_Academy/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/React_First_Task_Route_Academy/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/React_First_Task_Route_Academy/index.html",
+    "main.27f38f18.css.map": "/React_First_Task_Route_Academy/static/css/main.27f38f18.css.map",
+    "main.c5a228dc.js.map": "/React_First_Task_Route_Academy/static/js/main.c5a228dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27f38f18.css",
+    "static/js/main.c5a228dc.js"
+  ]
+}
