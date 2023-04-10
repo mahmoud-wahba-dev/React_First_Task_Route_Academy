@@ -2,7 +2,7 @@
   "homepage": "https://mahmoud-wahba-dev.github.io/React_First_Task_Route_Academy",
   "name": "react-task1",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
     "@testing-library/jest-dom": "^5.16.5",
