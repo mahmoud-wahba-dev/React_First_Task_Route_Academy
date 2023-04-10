@@ -30,7 +30,7 @@ const router = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
+    <BrowserRouter basename='React_First_Task_Route_Academy'>
       <Root/>
     </BrowserRouter>
   // <App />
