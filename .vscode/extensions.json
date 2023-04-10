@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "steoates.autoimport",
+        "moppitz.vscode-extension-auto-import",
+        "nucllear.vscode-extension-auto-import",
+        "ecmel.vscode-html-css",
+        "zignd.html-css-class-completion",
+        "wix.vscode-import-cost",
+        "wallabyjs.quokka-vscode",
+        "formulahendry.auto-rename-tag",
+        "burkeholland.simple-react-snippets",
+        "xabikos.javascriptsnippets",
+        "rodrigovallades.es7-react-js-snippets"
+    ]
+}

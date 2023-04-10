@@ -1,0 +1,26 @@
+.bg_green {
+    background-color: #1abc9c;
+
+}
+
+.hero_sec h1 {
+    font-size: 4rem;
+}
+
+.hero_sec p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.divider {
+    width: 10%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.icon {
+    font-size: 2.4rem;
+    /* color: red; */
+    /* background-color: darkblue; */
+}
