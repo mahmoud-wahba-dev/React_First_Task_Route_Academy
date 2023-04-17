@@ -20,24 +20,24 @@ export default function Contact() {
           <div className="form_container col-md-8 m-auto">
             <form >
 
-              <div class="form-floating">
-                <input type="text" class="form-control" id="floatingText" placeholder="Name" />
-                <label for="floatingText">Name</label>
+              <div className="form-floating">
+                <input type="text" className="form-control" id="floatingText" placeholder="Name" />
+                <label htmlFor="floatingText">Name</label>
               </div>
 
-              <div class="form-floating my-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
-                <label for="floatingInput">Email address</label>
+              <div className="form-floating my-3">
+                <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
+                <label htmlFor="floatingInput">Email address</label>
               </div>
-              <div class="form-floating my-3">
-                <input type="text" class="form-control" id="floatingPhone" placeholder="Phone Number" />
-                <label for="floatingPhone">Phone</label>
+              <div className="form-floating my-3">
+                <input type="text" className="form-control" id="floatingPhone" placeholder="Phone Number" />
+                <label htmlFor="floatingPhone">Phone</label>
               </div>
 
 
-              <div class="form-floating my-3">
-                <textarea class="form-control" placeholder="Message" id="floatingTextarea"></textarea>
-                <label for="floatingTextarea">Message</label>
+              <div className="form-floating my-3">
+                <textarea className="form-control" placeholder="Message" id="floatingTextarea"></textarea>
+                <label htmlFor="floatingTextarea">Message</label>
               </div>
 
               <div className='text-start'>

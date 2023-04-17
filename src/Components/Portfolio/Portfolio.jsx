@@ -11,14 +11,7 @@ import Card from '../Card/Card';
 export default function Portfolio() {
 
 
-  let showModal = (e) => {
-    console.log("show modal click");
-    let parentElement = e.target.parentElement.parentElement
-    let imgTag = parentElement.querySelector("img")
-    console.log(imgTag.src);
-
-  }
-
+ 
 
   return (
     <>
@@ -38,12 +31,12 @@ export default function Portfolio() {
 
           </div>
           <div className="row gy-5 gx-0 gx-sm-5">
-            <Card imgss={img1}  modalTitle = {"title for card1"} />
-            <Card imgss={img2}    modalTitle = {"title for card2"}  />
-            <Card imgss={img3} />
-            <Card imgss={img4} />
-            <Card imgss={img5} />
-            <Card imgss={img6} />
+            <Card img={img1} modalTitle={"title for card1"} />
+            <Card img={img2} modalTitle={"title for card2"} />
+            <Card img={img3} modalTitle={"title for card3"} />
+            <Card img={img4} modalTitle={"title for card4"} />
+            <Card img={img5} modalTitle={"title for card5"} />
+            <Card img={img6} modalTitle={"title for card6"} />
 
 
 

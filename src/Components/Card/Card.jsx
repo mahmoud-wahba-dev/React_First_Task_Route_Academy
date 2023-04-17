@@ -1,23 +1,28 @@
-import Modal from '../Modal/Modal';
-export default function Card({ imgss, modalTitle, modalImg }) {
-    console.log(modalTitle);
+import { useState } from 'react';
+export default function Card({ img, modalTitle }) {
+    let [modalImg, setModalImg] = useState()
 
- 
- 
+    let changeImg = (img) => {
+        console.log("click");
+        console.log(img, "img");
+        setModalImg(img)
+        console.log(modalImg, "use state modal img");
+    }
+
     return (
         <>
             <div className="col-md-4">
                 <div data-bs-toggle="modal" data-bs-target="#exampleModal" className="card">
                     <div className='rounded-3'>
-                        <img className='img-fluid img_portfolio rounded-4' src={imgss} alt="" />
-                        <div className='layer rounded-4'>
+                        <img className='img-fluid img_portfolio rounded-4' src={img} alt="" />
+                        <div onClick={() => changeImg(img)} className='layer rounded-4'>
                             <i className='fa fa-plus fa-bold fa-5x'></i>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal fade " id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog modal-xl">
                     <div className="modal-content">
                         <div className="modal-header">
@@ -25,7 +30,7 @@ export default function Card({ imgss, modalTitle, modalImg }) {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                            <img className='img-fluid img_portfolio rounded-4' src={imgss} alt="" />
+                            <img src={modalImg} className='img-fluid img_portfolio rounded-4'  alt="" />
 
                         </div>
                         <div className="modal-footer">
@@ -34,6 +39,7 @@ export default function Card({ imgss, modalTitle, modalImg }) {
                     </div>
                 </div>
             </div>
+
         </>
     )
 }
